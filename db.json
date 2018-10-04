@@ -1,467 +1,76 @@
 {
-    "menu": [
+    "transactions": [
         {
-            "ID": 24,
-            "order": 1,
-            "parent": 0,
-            "title": "Customer Enquiry",
-            "url": "http://54.38.37.10/customer-enquiry/",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 12,
-            "object": "page",
-            "type": "post_type",
-            "type_label": "Page",
-            "children": []
+            "id": 139,
+            "icon": "exchange-alt",
+            "date": "2 April 2018",
+            "time": "10:30",
+            "action": "Bank Transfer",
+            "sender": "Ipagoo Service",
+            "receiver": "John Miller",
+            "amount": "EUR 3.00",
+            "type": "FEE",
+            "status": "Complete"
         },
         {
-            "ID": 23,
-            "order": 2,
-            "parent": 0,
-            "title": "Customer Support",
-            "url": "http://54.38.37.10/customer-support/",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 15,
-            "object": "page",
-            "type": "post_type",
-            "type_label": "Page",
-            "children": []
+            "id": 213931,
+            "icon": "credit-card",
+            "date": "5 Feb 2018",
+            "time": "4:49",
+            "action": "Purchase",
+            "sender": "Ipagoo Service",
+            "receiver": "London Cafe",
+            "amount": "EUR 3.00",
+            "type": "FEE",
+            "status": "Complete"
         },
         {
-            "ID": 22,
-            "order": 3,
-            "parent": 0,
-            "title": "Products",
-            "url": "http://54.38.37.10/products/",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 17,
-            "object": "page",
-            "type": "post_type",
-            "type_label": "Page",
-            "children": []
+            "id": 94873,
+            "icon": "shopping-cart",
+            "date": "2 Jan 2018",
+            "time": "11:54",
+            "action": "Online Purchase",
+            "sender": "Ipagoo Service",
+            "receiver": "Amazon Ltd.",
+            "amount": "EUR 3.00",
+            "type": "FEE",
+            "status": "Complete"
         },
         {
-            "ID": 21,
-            "order": 4,
-            "parent": 0,
-            "title": "Documentation",
-            "url": "http://54.38.37.10/documentation/",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 19,
-            "object": "page",
-            "type": "post_type",
-            "type_label": "Page",
-            "children": []
+            "id": 2747,
+            "icon": "university",
+            "date": "17 Dec 2017",
+            "time": "14:31",
+            "action": "Direct Debit",
+            "sender": "Ipagoo Service",
+            "receiver": "Homes Retail Ltd.",
+            "amount": "EUR 3.00",
+            "type": "FEE",
+            "status": "Complete"
         },
         {
-            "ID": 25,
-            "order": 5,
-            "parent": 0,
-            "title": "|",
-            "url": "#",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 25,
-            "object": "custom",
-            "type": "custom",
-            "type_label": "Custom Link",
-            "children": []
+            "id": 1283,
+            "icon": "exchange-alt",
+            "date": "20 Nov 2017",
+            "time": "19:03",
+            "action": "Bank Transfer",
+            "sender": "Ipagoo Service",
+            "receiver": "Kyle Stanford",
+            "amount": "EUR 3.00",
+            "type": "FEE",
+            "status": "Complete"
         },
         {
-            "ID": 26,
-            "order": 6,
-            "parent": 0,
-            "title": "<i class=\"fas fa-search\"></i>",
-            "url": "#",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 26,
-            "object": "custom",
-            "type": "custom",
-            "type_label": "Custom Link",
-            "children": []
-        },
-        {
-            "ID": 27,
-            "order": 7,
-            "parent": 0,
-            "title": "<i class=\"fas fa-user\"></i>",
-            "url": "#",
-            "attr": "",
-            "target": "",
-            "classes": "",
-            "xfn": "",
-            "description": "",
-            "object_id": 27,
-            "object": "custom",
-            "type": "custom",
-            "type_label": "Custom Link",
-            "children": []
-        }
-    ],
-    "party": [
-        {
-            "partyId": 1,
-            "totalBalance": "$45,459",
-            "availableCredit": "$54,394",
-            "basicInformation": {
-                "status": "Accepted",
-                "fullname": "John Doe",
-                "firstName": "John",
-                "lastName": "Doe",
-                "partyId": "1",
-                "mobile": "07123456789",
-                "email": "dj@test.com",
-                "language": "English"
-            },
-            "accounts": [
-                {
-                    "name": "ACC-GB-EU-1",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                },
-                {
-                    "name": "ACC-GB-EU-2",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                },
-                {
-                    "name": "ACC-GB-EU-3",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                },
-                {
-                    "name": "ACC-GB-EU-4",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,940",
-                    "pendingBalance": "$54,230"
-                }
-            ],
-            "cards": [
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                },
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                },
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                },
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                }
-            ],
-            "transactions": [
-                {
-                    "id": 139,
-                    "icon": "exchange-alt",
-                    "date": "2 April 2018",
-                    "time": "10:30",
-                    "action": "Bank Transfer",
-                    "sender": "Ipagoo Service",
-                    "receiver": "John Miller",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 213931,
-                    "icon": "credit-card",
-                    "date": "5 Feb 2018",
-                    "time": "4:49",
-                    "action": "Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "London Cafe",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 94873,
-                    "icon": "shopping-cart",
-                    "date": "2 Jan 2018",
-                    "time": "11:54",
-                    "action": "Online Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Amazon Ltd.",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 2747,
-                    "icon": "university",
-                    "date": "17 Dec 2017",
-                    "time": "14:31",
-                    "action": "Direct Debit",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Homes Retail Ltd.",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 1283,
-                    "icon": "exchange-alt",
-                    "date": "20 Nov 2017",
-                    "time": "19:03",
-                    "action": "Bank Transfer",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Kyle Stanford",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 54892,
-                    "icon": "shopping-cart",
-                    "date": "29 April 2017",
-                    "time": "00:42",
-                    "action": "Online Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Ebay UK",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 121331,
-                    "icon": "credit-card",
-                    "date": "15 Feb 2018",
-                    "time": "4:49",
-                    "action": "Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "London Cafe",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 34531,
-                    "icon": "shopping-cart",
-                    "date": "29 April 2017",
-                    "time": "10:42",
-                    "action": "Online Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Ebay UK",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 134439,
-                    "icon": "exchange-alt",
-                    "date": "12 April 2018",
-                    "time": "10:30",
-                    "action": "Bank Transfer",
-                    "sender": "Ipagoo Service",
-                    "receiver": "John Miller",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                }
-            ]
-        },
-        {
-            "partyId": 2,
-            "totalBalance": "$45,459",
-            "availableCredit": "$54,394",
-            "basicInformation": {
-                "status": "Accepted",
-                "fullname": "Clara Desa",
-                "firstName": "Clara",
-                "lastName": "Desa",
-                "partyId": "2",
-                "mobile": "07123456789",
-                "email": "dj@test.com",
-                "language": "Spanish"
-            },
-            "accounts": [
-                {
-                    "name": "ACC-GB-EU-1",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                },
-                {
-                    "name": "ACC-GB-EU-1",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                },
-                {
-                    "name": "ACC-GB-EU-1",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                },
-                {
-                    "name": "ACC-GB-EU-1",
-                    "IBAN": "BA391290079401028494",
-                    "status": "Active",
-                    "country": "GB",
-                    "availableBalance": "$45,943",
-                    "pendingBalance": "$54,230"
-                }
-            ],
-            "cards": [
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                },
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                },
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                },
-                {
-                    "type": "VISA",
-                    "number": "**** **** **** 5432",
-                    "status": "Active",
-                    "holderName": "John Doe",
-                    "expirt": "06/07"
-                }
-            ],
-            "transactions": [
-                {
-                    "id": 139,
-                    "icon": "exchange-alt",
-                    "date": "2 April 2018",
-                    "time": "10:30",
-                    "action": "Bank Transfer",
-                    "sender": "Ipagoo Service",
-                    "receiver": "John Miller",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 213931,
-                    "icon": "credit-card",
-                    "date": "5 Feb 2018",
-                    "time": "4:49",
-                    "action": "Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "London Cafe",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 94873,
-                    "icon": "shopping-cart",
-                    "date": "2 Jan 2018",
-                    "time": "11:54",
-                    "action": "Online Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Amazon Ltd.",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 2747,
-                    "icon": "university",
-                    "date": "17 Dec 2017",
-                    "time": "14:31",
-                    "action": "Direct Debit",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Homes Retail Ltd.",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 1283,
-                    "icon": "exchange-alt",
-                    "date": "20 Nov 2017",
-                    "time": "19:03",
-                    "action": "Bank Transfer",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Kyle Stanford",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                },
-                {
-                    "id": 54892,
-                    "icon": "shopping-cart",
-                    "date": "29 April 2017",
-                    "time": "00:42",
-                    "action": "Online Purchase",
-                    "sender": "Ipagoo Service",
-                    "receiver": "Ebay UK",
-                    "amount": "EUR 3.00",
-                    "type": "FEE",
-                    "status": "Complete"
-                }
-            ]
+            "id": 54892,
+            "icon": "shopping-cart",
+            "date": "29 April 2017",
+            "time": "00:42",
+            "action": "Online Purchase",
+            "sender": "Ipagoo Service",
+            "receiver": "Ebay UK",
+            "amount": "EUR 3.00",
+            "type": "FEE",
+            "status": "Complete"
         }
     ]
 }
